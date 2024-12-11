@@ -8,7 +8,9 @@
 - Instance type (e.g. t2 micro for free tier)
 -  Configure security groups to allow HTTP (port 80) SSH (port 22)
 
+
 ![31](https://github.com/user-attachments/assets/9e02b282-6841-4976-9884-5ea831f6c9b8)
+
 
 # Step 2: Switch to Root User
 
