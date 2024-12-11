@@ -1,0 +1,105 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #fff8e1; /* Light orange background */
+    color: #333;
+}
+
+header {
+    background-color: #ffb74d; /* Light orange */
+    color: white;
+    padding: 15px;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 28px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+#products {
+    display: flex;
+    gap: 20px;
+    padding: 30px;
+    justify-content: center;
+}
+
+.product {
+    border: 1px solid #ccc;
+    padding: 15px;
+    text-align: center;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 200px;
+}
+
+.product img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+}
+
+.product h3 {
+    color: #ff5722; /* Orange color */
+}
+
+button {
+    background-color: #ffb74d; /* Light orange */
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    font-size: 16px;
+    width: 100%;
+}
+
+button:hover {
+    background-color: #ffa726; /* Darker orange */
+}
+
+#cart {
+    padding: 20px;
+    display: none;
+    background-color: #ffecb3; /* Light yellow-orange */
+    margin: 20px;
+    border-radius: 8px;
+}
+
+#cart-items {
+    list-style: none;
+    padding: 0;
+}
+
+footer {
+    background-color: #ffb74d; /* Light orange */
+    color: white;
+    text-align: center;
+    padding: 15px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
