@@ -137,4 +137,8 @@ docker ps
 
 # Step 19: Test Your Deployment
  open the browser
- copy : xdg-open http://52.91.129.84:8000/
+ copy : http://52.91.129.84:8000/
+
+ 
+![43](https://github.com/user-attachments/assets/40ca2dc4-53c8-4a82-bc1b-9b19175f3696)
+
