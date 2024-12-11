@@ -137,7 +137,7 @@ docker ps
 
 ![42](https://github.com/user-attachments/assets/60347853-7497-4505-8518-422996470b75)
 
-# Step 19: Test Your Deployment
+# Step 9: Test Your Deployment
  open the browser
  copy : http://52.91.129.84:8000/
 
